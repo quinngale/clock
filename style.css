@@ -1,0 +1,15 @@
+body {
+	background-color: hsl(0, 0%, 0%);
+	display: grid;
+	align-items: center;
+	justify-items: center;
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+
+object {
+	width: 60vmin;
+	height: auto;
+}
