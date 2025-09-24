@@ -1,9 +1,7 @@
 let clock = document.querySelector('object');
 
-
-
 clock.addEventListener('load', e => {
-	function spin() {
+	function tick() {
 		let now = new Date();
 
 		const hours = now.getHours();
@@ -18,7 +16,7 @@ clock.addEventListener('load', e => {
 		minuteHand.style.transform = `rotate(${minuteRotation}deg)`;
 		secondHand.style.transform = `rotate(${secondRotation}deg)`;
 
-		requestAnimationFrame(spin);
+		requestAnimationFrame(tick);
 	}
 
 	const clockDocument = clock.contentDocument;
@@ -28,5 +26,5 @@ clock.addEventListener('load', e => {
 	secondHand.style.transformOrigin = '175px 175px';
 	minuteHand.style.transformOrigin = '175px 175px';
 	hourHand.style.transformOrigin = '175px 175px';
-	spin();
+	tick();
 }, false);

@@ -26,15 +26,15 @@
      inkscape:pagecheckerboard="true"
      inkscape:deskcolor="#272727"
      inkscape:document-units="px"
-     inkscape:zoom="11.79457"
-     inkscape:cx="179.78612"
-     inkscape:cy="181.22746"
+     inkscape:zoom="2.9486426"
+     inkscape:cx="123.27706"
+     inkscape:cy="137.86004"
      inkscape:window-width="3840"
      inkscape:window-height="2054"
      inkscape:window-x="-11"
      inkscape:window-y="2149"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="second-hand"
      showguides="true">
     <sodipodi:guide
        position="20,340"
@@ -383,20 +383,20 @@
        id="second-hand"
        inkscape:label="second-hand"
        style="display:inline">
+      <circle
+         style="display:inline;fill:#ff1400;fill-opacity:1;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-opacity:1"
+         id="path176"
+         cx="108.60472"
+         cy="112.28252"
+         transform="translate(66.395279,62.717484)"
+         inkscape:label="center"
+         r="4" />
       <path
-         style="fill:#333333;fill-opacity:1;stroke:#ff000f;stroke-width:2;stroke-linecap:round;stroke-opacity:1"
-         d="M 175,195 V 30"
+         style="fill:#333333;fill-opacity:1;stroke:#ff1400;stroke-width:2;stroke-linecap:round;stroke-opacity:1"
+         d="M 175,215 V 30"
          id="second-hand-stem"
          sodipodi:nodetypes="cc"
          inkscape:label="second-hand-stem" />
     </g>
   </g>
-  <circle
-     style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-opacity:1"
-     id="path176"
-     cx="108.60472"
-     cy="112.28252"
-     transform="translate(66.395279,62.717484)"
-     inkscape:label="center"
-     r="4" />
 </svg>
